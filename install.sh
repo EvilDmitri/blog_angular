@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 python virtualenv.py flask
 flask/bin/pip install setuptools --no-use-wheel --upgrade
 flask/bin/pip install flask==0.9
